@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Statis - E-Commerce</title>
+    <link rel="stylesheet" href="style.css"> <!-- PERBAIKAN 1: Ditambah tanda penutup '>' -->
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <h1>E-Commerce - Maju Sejahtera</h1>
+    </header>
+
+    <!--Navbar-->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!--Main-->
+    <main>
+        <!--Banner-->
+        <section id="beranda" class="banner"> <!-- PERBAIKAN 2: Diubah dari 'beranda' jadi 'banner' -->
+            <h2>Selamat datang, di Toko Online Maju Sejahtera</h2>
+            <p>Temukan produk pilihan dengan harga terjangkau</p>
+            <a href="#produk" class="tombol">Lihat Produk</a>
+        </section>
+
+        <!--Daftar Produk-->
+        <section id="produk">
+            <h2>Produk Pilihan</h2>
+            <div class="daftar-produk">
+                <article class="produk">
+                    <img src="img/macbookm3.jpg" alt="laptop" class="gambar" width="200">
+                    <h2>Macbook</h2>
+                    <p>Macbook Air M3 2026, ringan dan cepat</p>
+                    <p class="harga">Rp.12.000.000</p>
+                    <button type="button">Checkout Now</button>
+                </article>
+
+                <!--Produk 2-->
+                <article class="produk">
+                    <img src="img/monitor.jpg" alt="monitor" class="gambar" width="200">
+                    <h2>Monitor</h2>
+                    <p>Monitor 17 inch, gambar jernih</p>
+                    <p class="harga">Rp.1.999.000</p>
+                    <button type="button">Checkout Now</button>
+                </article>
+
+                <!--Produk 3-->
+                <article class="produk">
+                    <img src="img/keyboard.jpg" alt="keyboard" class="gambar" width="200">
+                    <h2>Keyboard</h2>
+                    <p>Keyboard mekanik, nyaman dipakai mengetik</p>
+                    <p class="harga">Rp.485.000</p>
+                    <button type="button">Checkout Now</button>
+                </article>
+
+                <!--Produk 4-->
+                <article class="produk">
+                    <img src="img/headphone.jpg" alt="headphone" class="gambar" width="200">
+                    <h2>Headphone</h2>
+                    <p>Headphone yang nyaman dipakai harian dengan suara jernih</p>
+                    <p class="harga">Rp.159.000</p>
+                    <button type="button">Checkout Now</button>
+                </article>
+            </div>
+        </section>
+
+        <!--Tentang-->
+        <section id="tentang" class="kontak">
+            <h2>Tentang Kita</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In veniam eius odit cupiditate reiciendis quaerat pariatur aliquid expedita nam ullam sequi vitae, quia, molestias obcaecati incidunt hic sed. Odio, vitae.</p>
+        </section>
+
+        <!--Kontak-->
+        <section id="kontak" class="kontak">
+            <h2>Kontak</h2>
+            <p>Email: raihanakhdan75@gmail.com</p>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2026 E-Commerce RAF</p>
+    </footer>
+</body>
+</html>

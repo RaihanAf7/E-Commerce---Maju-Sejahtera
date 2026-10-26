@@ -1,0 +1,170 @@
+/* Pengaturan Umum */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    background-color: #0b132b;
+    color: #e0f2fe;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 2rem;
+}
+
+/* Navbar */
+nav {
+    background-color: #2563eb;
+    text-align: center;
+    padding: 18px 0;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    color: #eff6ff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 1100px;
+    margin: 0 auto 60px auto;
+    padding: 0 20px;
+}
+
+/* Banner (Box Card Selamat Datang) */
+.banner {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 30px 60px 30px;
+    border-radius: 16px;
+    margin-bottom: 60px; /* Jarak bawah ke Produk Pilihan */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    border: 1px solid #334155;
+}
+
+.banner h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #f8fafc;
+}
+
+.banner p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #94a3b8;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tombol:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Judul Produk Pilihan */
+#produk > h2 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+    color: #f8fafc;
+}
+
+/* Daftar Produk */
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.produk {
+    background-color: #f0f9ff;
+    color: #0f172a;
+    padding: 25px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.harga {
+    color: #0369a1;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 15px 0;
+}
+
+.produk button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.produk button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Tentang & Kontak */
+.kontak {
+    background-color: #e0f2fe;
+    color: #0f172a;
+    padding: 35px 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: #94a3b8;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+}
